@@ -12,11 +12,12 @@
 	--cabeza_pie_hover:#f2f3f4;
 }
 
+
 .header, .footer{
 	width: 100%;
 	color: white;
-	min-width: 720px;
-	max-width: 1440px
+	min-width: 1024px;
+	max-width: 1440px;
 }
 
 

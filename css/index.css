@@ -1,0 +1,75 @@
+:root{
+	--fondo_principal:#faebd7;
+	--fondo_secundario:#f0f8ff;
+	--fondo-tarjeta:#21abcd;
+}
+
+*{
+	font-family: arial;
+}
+
+.header{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	width: 50%;
+	text-align: center;
+}
+
+.main{
+	background-color: var(--fondo_principal);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+	min-width: 1024px;
+	max-width: 1440px;
+}
+
+
+.peliculas, .series, .solicitud{
+	padding: 20px;
+	text-align: center;
+	background-color: var(--fondo_secundario);
+	width: 100%;
+	margin-top:30px;
+	margin-bottom:30px; 
+}
+
+.titulo{
+	text-align: left;
+	width: 100%;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.contein img{
+	width:200px;
+	height: 400px; 
+	width:30%;
+	padding: 10px;
+}
+
+.relink{
+	display: inline-block;
+	padding: 40px;
+	text-align: center;
+}
+.relink a{
+	background-color:var(--fondo-tarjeta);
+	color: white;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.relink a:hover{
+	background-color: white;
+	color:#21abcd;
+	font-size: large;
+}
